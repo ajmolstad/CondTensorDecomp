@@ -11,4 +11,4 @@
 
 module load R/3.6
 
-R CMD BATCH --vanilla R3_Random.R  Results/Results_${SLURM_ARRAY_TASK_ID}.Rout
+R CMD BATCH --vanilla R3.R  Results/Results_${SLURM_ARRAY_TASK_ID}.Rout

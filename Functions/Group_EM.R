@@ -202,9 +202,6 @@ delta.update <- function(pis) {
   colSums(pis)/(dim(pis)[1])
 }
 
-# -------------------------------------------------------
-# Neede to rewrite this function
-# -------------------------------------------------------
 
 beta.update <- function(Y, Xin, pis, beta.list,  R, S, lambda, weights, gamma0 = 1, epochs = epochs) {
   
